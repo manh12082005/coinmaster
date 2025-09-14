@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-margin{
+    margin:30px;
+}
+.text-blue {
+    color: #82B8BC;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-italic {
+    font-style: italic;
+}
+.text-margin1{
+margin-top: 50px;
+text-align: center;
+}
+/* content header */
+#header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid orange;
+}
+#header img{
+    width: 50%;
+}
+.content-menu ul {
+    display: flex;
+}
+
+.content-menu li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.content-menu a {
+    text-decoration: none;
+    color: #82B8BC;
+}
+
+
+/* coin content */
+#coinn {
+margin-top: 100px;
+}
+
+
+/* body */
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color:bisque;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: orange;
+      border-radius: 10px;
+      border: none;
+      color:white;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    #score {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    
